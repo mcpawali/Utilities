@@ -1,0 +1,14 @@
+
+# sbt specific
+target/
+
+# IntelliJ IDEA specific
+**/.idea/
+**/target/
+**/*.iml
+classes/
+/log
+
+
+
+
