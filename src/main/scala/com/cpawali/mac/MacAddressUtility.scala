@@ -1,7 +1,6 @@
-package com.cpawali
+package com.cpawali.mac
 
 import java.net._
-import java.util.Enumeration
 
 import scala.collection.JavaConversions._
 import scala.util.{Failure, Success, Try}

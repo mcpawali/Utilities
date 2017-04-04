@@ -1,4 +1,4 @@
-package com.cpawali
+package com.cpawali.mac
 
 import java.net._
 
