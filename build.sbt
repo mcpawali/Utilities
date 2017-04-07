@@ -19,7 +19,8 @@ val common_settings = Defaults.coreDefaultSettings ++
       "org.json4s" %% "json4s-jackson" % "3.2.11" ,
       "joda-time" % "joda-time" % "2.8.2",
       "com.typesafe.slick" %% "slick-codegen" % "3.0.0",
-      "org.scalatest" %% "scalatest" % "3.0.1"
+      "org.scalatest" %% "scalatest" % "3.0.1",
+      "net.debasishg" %% "redisclient" % "3.4"
     ))
 
 val cpawali_work = Project(id = "utilities", base = file(".")).aggregate(connectivity, jsonUtilities)
