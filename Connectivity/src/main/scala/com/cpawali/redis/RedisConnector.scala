@@ -6,7 +6,7 @@ import com.redis.RedisClientPool
   * Created by chandrashekhar on 4/7/2017.
   */
 object RedisConnector extends App {
-  val redisClient = new RedisClientPool("192.168.1.165", 6379,database = 2)
+  val redisClient = new RedisClientPool("192.168.1.1", 6379,database = 2)
 
   def lp(msgs: String): Boolean = {
     redisClient.withClient {
